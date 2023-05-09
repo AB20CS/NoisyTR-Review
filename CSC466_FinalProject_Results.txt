@@ -1,0 +1,43 @@
+No Noise in Function or Gradient:
+- Naive TR:
+	x_100 = [-0.1        -0.29552021]
+	nabla f_100 = [-1.11924167e-14  5.30825384e-15]
+- Noisy TR:
+	x_100 = [-0.1        -0.29552021]
+	nabla f_100 = [-1.11924167e-14  5.30825384e-15]
+- BFGS with Errors:
+	x_100 = [-0.1        -0.29552021]
+	nabla f_100 = [-1.11924167e-14  5.30825384e-15]
+
+Noise in Function and No Noise in Gradient:
+- Naive TR:
+	x_100 = [-0.10000001 -0.29552022]
+	nabla f_100 = [-4.98432012e-10 -1.03373826e-09]
+- Noisy TR:
+	x_100 = [-0.1        -0.29552021]
+	nabla f_100 = [-1.11924167e-14  5.30825384e-15]
+- BFGS with Errors:
+	x_100 = [-0.10000001 -0.29552022]
+	nabla f_100 = [-1.9786597e-11 9.906404e-12]
+
+No Noise in Function and Noise in Gradient:
+- Naive TR:
+	x_100 = [ 0.01320473 -0.09713304]
+	nabla f_100 = [0.0723425  0.12980604]
+- Noisy TR:
+	x_100 = [-0.39854995 -0.57622503]
+	nabla f_100 = [5.55111512e-17 6.93889390e-17]
+- BFGS with Errors:
+	x_100 = [-0.8744164   0.57053743]
+	nabla f_100 = [0.07022357 0.13866132]
+
+Noise in Function and Gradient:
+- Naive TR:
+	x_100 = [ 0.01320473 -0.09713304]
+	nabla f_100 = [0.0723425  0.12980604]
+- Noisy TR:
+	x_100 = [-0.39854995 -0.57622503]
+	nabla f_100 = [5.55111512e-17 6.93889390e-17]
+- BFGS with Errors:
+	x_100 = [-0.87492803  0.57130702]
+	nabla f_100 = [0.06025687 0.13615138]
